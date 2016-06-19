@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Registro</string>
+     <string name="hint_name">Name</string>
+    <string name="texto_boton_siguiente">Siguiente</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_Descripcion">Descripción</string>
+    <string name="nombre_parametro_name">parametroName</string>
+    <string name="nombre_parametro_fecha">parametroName</string>
+    <string name="nombre_parametro_telefono">parametroName</string>
+    <string name="nombre_parametro_correo">parametroName</string>
+    <string name="nombre_parametro_descripcion">parametroName</string>
+
+    <string name="titulo_segundo_activity">Confirmar Datos</string>
+    <string name="texto1_segundo_activity">Nombre:</string>
+    <string name="texto2_segundo_activity">Fecha de Nacimiento:</string>
+    <string name="texto3_segundo_activity">Telefono:</string>
+    <string name="texto4_segundo_activity">Correo:</string>
+    <string name="texto5_segundo_activity">Descripción:</string>
+    <string name="texto_boton_editar">Editar Datos</string>
+    <string name="title_activity_main2">Confirmar Datos</string>
+</resources>

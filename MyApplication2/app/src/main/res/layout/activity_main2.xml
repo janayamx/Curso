@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jorge.myapplication2.MainActivity2">
+
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:text="@string/titulo_segundo_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titulo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tvTexto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto1_segundo_activity"
+        android:textSize="@dimen/texto_contenido"
+        android:layout_below="@+id/tvTitulo2"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:id="@+id/tvTexto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto2_segundo_activity"
+        android:textSize="@dimen/texto_contenido"
+        android:layout_below="@+id/tvTexto1"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:id="@+id/tvTexto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto3_segundo_activity"
+        android:textSize="@dimen/texto_contenido"
+        android:layout_below="@+id/tvTexto2"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:id="@+id/tvTexto4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto4_segundo_activity"
+        android:textSize="@dimen/texto_contenido"
+        android:layout_below="@+id/tvTexto3"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:id="@+id/tvTexto5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto5_segundo_activity"
+        android:textSize="@dimen/texto_contenido"
+        android:layout_below="@+id/tvTexto4"
+        android:layout_alignParentEnd="true"
+        />
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_editar"
+        android:textSize="@dimen/texto_botones"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tvTexto5"
+        android:onClick="irEditarPantalla"
+
+        />
+
+
+
+
+</RelativeLayout>
+
+
+
