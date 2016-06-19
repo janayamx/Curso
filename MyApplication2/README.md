@@ -1,2 +1,0 @@
-# MyApplication2
-# Curso
